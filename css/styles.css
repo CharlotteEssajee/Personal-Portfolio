@@ -520,6 +520,10 @@ img {
   padding: 10px;
 }
 
+footer {
+  margin-bottom: var(--margin-biggest);
+}
+
 /*----- MEDIA QUERY */
 @media screen and (min-width: 570px) {
   .index-img img {
