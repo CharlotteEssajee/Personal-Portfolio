@@ -82,7 +82,5 @@ function toTop() {
   document.documentElement.scrollTop = 0;
 }
 
-/*----- SERVICES ACCORDION*/
-
 // Samesite cookie
 document.cookie = "cookie2=value2; SameSite=Lax; Secure";
