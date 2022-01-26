@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--- SWIPER -->
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!--- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio Charlotte Essajee</title>
+  </head>
+  <body>
+    <!-- SCROLL TO TOP -->
+    <button onclick="toTop()" id="toTop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header class="hero" id="hero">
+      <nav class="nav nav-container">
+        <a href="#" class="nav-logo">Charlotte Essajee</a>
+
+        <div class="navbar" id="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-moon nav-link" id="darkMode"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-switch" id="nav-switch">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- INDEX -->
+    <main>
+      <!-- INTRO -->
+      <section class="index" id="home">
+        <div class="index-container container grid">
+          <div class="index-text">
+            <p class="index-intro">Hi there! I am</p>
+            <h1 class="index-name">Charlotte</h1>
+            <p class="index-paragraph">
+              A front-End student based in Bergen, <br> with a passion for design and
+              user experience.
+            </p>
+            <a
+              download=""
+              href="cv/CharlotteEssajee-CV.pdf"
+              class="btn btn-light"
+              >Download CV</a
+            >
+          </div>
+
+          <!-- SOCIAL MEDIA -->
+          <div class="index-some">
+            <a
+              href="https://www.linkedin.com/in/charlotte-essajee-67aa39226/"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="index-some-icons"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="tel:+4748266439" rel="noopener noreferrer" target="_blank" class="index-some-icons"
+              ><i class="fas fa-phone-alt"></i
+            ></a>
+            <a
+              href="https://github.com/CharlotteEssajee"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="index-some-icons"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+
+          <!-- IMAGE -->
+          <div class="index-img">
+            <img src="/img/charlotte1.png" alt="CharlotteEssajee" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section container" id="about">
+        <p class="section-subtitle">About me</p>
+        <h2 class="section-title">Get to know me</h2>
+
+        <div class="about-container grid">
+          <div class="about-text grid">
+            <p class="about-paragraph">
+              My name is Charlotte Essajee, and I am a 26 year old Front-End
+              Developer with a passion for design. I am currently studying
+              Front-End Development at Noroff, and working fulltime at Mint Media
+              in Bergen. On my spare time I enjoy beeing active and hanging out
+              with friends and family. I love beeing creative - does not matter
+              if it is prototyping a new project, starting to code a new site,
+              or just taking pictures for my Instagram.
+            </p>
+            <div>
+              <p class="about-number">02+</p>
+              <p class="about-work">Years of studying Front-End</p>
+            </div>
+            <div>
+              <p class="about-number">10+</p>
+              <p class="about-work">Finished projects</p>
+            </div>
+            <div>
+              <p class="about-number">01+</p>
+              <p class="about-work">Year work experience</p>
+            </div>
+          </div>
+
+          <img
+            class="about-img"
+            src="img/charlotte2.jpg"
+            alt="Charlotte Essajee"
+          />
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services section container" id="services">
+        <p class="section-subtitle">New project?</p>
+        <h2 class="section-title">Services I provide</h2>
+        <div class="services-row">
+          <div class="services-column">
+            <div class="services-card">
+              <i class="fas fa-crop-alt services-icons"></i>
+              <h3>UX/UI design</h3>
+              <ul class="services-accordion">
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>From prototype to finished product</p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Make user-friendly interfaces </p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Creativity, technicality and problem-solving</p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Knowledge in creative tools like: Adobe Xd, Illustrator, Photoshop</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="services-column">
+            <div class="services-card">
+              <i class="fas fa-code services-icons"></i>
+              <h3>Front-End developer</h3>
+              <ul class="services-accordion">
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Responsive and adaptive design</p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Good understading of SEO principles</p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>Good problem-solving skills</p>
+                </li>
+                <li class="service">
+                  <i class="fas fa-check check-icon"></i>
+                  <p>HTML, CSS, JavaScript, Wordpress, Strapi, Bootstrap, React</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEW PROJECT? -->
+      <section class="project section container center">
+        <div class="project-container grid">
+          <div class="project-text">
+            <i class="fas fa-paper-plane new-project-icon"></i>
+            <h2 class="center-title">New project?</h2>
+            <p class="new-project-description">
+              Wether you have a new project coming up, want to have a talk, or
+              maybe you want to know more about my services and prices? Contact
+              me for an offer.
+            </p>
+            <a href="#contact" class="btn btn-light project-btn">Contact me </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="portfolio section container" id="portfolio">
+        <p class="section-subtitle">My projects</p>
+        <h2 class="section-title">Explore my recent projects</h2>
+        <div class="portfolio-cards">
+          <div class="portfolio-row">
+            <div class="portfolio-column">
+              <div class="portfolio-card">
+                <img src="img/foodzonelogo.png" alt="foodzone logo">
+                <div class="portfolio-text">
+                  <h3>Foodzone</h3>
+                  <p class="portfolio-paragraph">School exam: Create a blog site. Choose the design and topics covered on the blog.</p>
+                  <a
+                    href="https://foodz0ne.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="portfolio-icons">
+                    <i class="fas fa-globe-americas"></i><small>View site on Netlify</small></a><br>
+                    <a
+                      href="https://github.com/CharlotteEssajee/foodzone2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="portfolio-icons">
+                      <i class="fab fa-github"></i><small>View project details</small></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-column">
+              <div class="portfolio-card">
+                <img src="img/oaklogo.png" alt="oak studios logo">
+                <div class="portfolio-text">
+                  <h3>Oak Studios</h3>
+                  <p class="portfolio-paragraph">Assignment focused on design. All pictures are taken by me and edited in Photoshop.</p>
+                  <a
+                    href="https://oakstudios.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="portfolio-icons">
+                    <i class="fas fa-globe-americas"></i><small>View site on Netlify</small></a><br>
+                    <a
+                      href="https://github.com/CharlotteEssajee/oakstudios"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="portfolio-icons">
+                      <i class="fab fa-github"></i><small>View project details</small></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-column">
+              <div class="portfolio-card">
+                <img src="img/rainydayslogo.png" alt="rainydays logo">
+                <div class="portfolio-text">
+                  <h3>Rainydays</h3>
+                  <p class="portfolio-paragraph">School exam first year: Create an ecommerce website for a company called Rainydays.</p>
+                  <a
+                    href="https://rainydaysproject.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="portfolio-icons">
+                    <i class="fas fa-globe-americas"></i><small>View site on Netlify</small></a><br>
+                    <a
+                      href="https://github.com/CharlotteEssajee/RainyDays"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="portfolio-icons">
+                      <i class="fab fa-github"></i><small>View project details</small></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- GET IN TOUCH -->
+      <section class="contact section container" id="contact">
+        <p class="section-subtitle">Contact me</p>
+        <h2 class="section-title">Get in touch!</h2>
+        <div class="contact-cards">
+          <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252523.9232494925!2d5.148987680363393!3d60.36523062926453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46390d4966767d77%3A0x9e42a03eb4de0a08!2sBergen!5e0!3m2!1sno!2sno!4v1643056478479!5m2!1sno!2sno" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        <div class="contact-row">
+          <div class="contact-column">
+            <div class="contact-card">
+              <a
+                href="https://www.linkedin.com/in/charlotte-essajee-67aa39226/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-icons"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <h3>LinkedIn</h3>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="contact-card">
+              <a
+                href="tel:+4748266439"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-icons"
+                ><i class="fas fa-phone-alt"></i
+              ></a>
+              <h3>Phone number</h3>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="contact-card"><a
+              href="https://github.com/CharlotteEssajee"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="contact-icons"
+              ><i class="fab fa-github"></i
+            ></a>
+            <h3>GitHub</h3>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer section container center">
+        <div class="footer-container grid">
+          <div class="footer-text">
+            <h2 class="center-title">Charlotte Essajee</h2>
+            <div class="footer-some">
+              <a
+                href="https://www.linkedin.com/in/charlotte-essajee-67aa39226/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-some-icons"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="tel:+4748266439"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-some-icons"
+                ><i class="fas fa-phone-alt"></i
+              ></a>
+              <a
+                href="https://github.com/CharlotteEssajee"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-some-icons"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <small>@Copyright 2022 Charlotte Essajee</small>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
