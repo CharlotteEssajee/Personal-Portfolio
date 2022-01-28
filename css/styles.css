@@ -34,6 +34,7 @@
   --main-color-lighter: #f3f3f3;
   --black-color: #000000;
   --white-color: #ffffff;
+  --card-color: #f1f1f1;
 
   /*----- FONTS */
   --big-font: 2.5rem;
@@ -207,7 +208,7 @@ img {
 }
 
 .nav-switch {
-  font-size: 1.2rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -359,7 +360,7 @@ img {
 /*----- SERVICES */
 .services-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #f1f1f1;
+  background-color: var(--card-color);
   color: #000000;
   border-radius: 8px;
   padding: var(--margin-small) 0;
@@ -438,7 +439,7 @@ img {
 
 .portfolio-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #f1f1f1;
+  background-color: var(--card-color);
   color: #000000;
   border-radius: 8px;
   padding: 0 0 var(--margin-small) 0;
@@ -477,7 +478,7 @@ img {
 .contact-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: var(--card-color);
   color: #000000;
   border-radius: 8px;
   padding: var(--margin-small) 0;
